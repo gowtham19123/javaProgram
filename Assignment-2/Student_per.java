@@ -6,15 +6,15 @@ public static void main(String[] args){
 
        Scanner sc = new Scanner(System.in);
        System.out.println("English Mark :"); 
-       float E = sc.nextInt();
+       float E = sc.nextFloat();
        System.out.println("Tamil Mark :"); 
-       float T = sc.nextInt();
+       float T = sc.nextFloat();
        System.out.println("Maths Mark :"); 
-       float M = sc.nextInt();
+       float M = sc.nextFloat();
        System.out.println("Science Mark :"); 
-       float Science = sc.nextInt();
+       float Science = sc.nextFloat();
        System.out.println("Social Mark :"); 
-       float Social = sc.nextInt();
+       float Social = sc.nextFloat();
        float total_mark = E + T + M + Science + Social;
        System.out.println("Total_Mark = " +total_mark);
        float avg = total_mark / 5;
